@@ -31,6 +31,16 @@
 .primary-btn:hover {
   background-color: #3b36cc;
 }
+.primary-text {
+  font-size: 42px;
+  font-weight: bold;
+}
+.primary-color {
+  color: #4E47FF;
+}
+
+.secondary-color {
+  color: #555;}
 
 
 
@@ -50,7 +60,58 @@ nav{
 .logo{
      font-size: 34px;
      font-weight: 900;
+}
+.banner-content{
+    text-align: center;
+    max-width: 905px;
+    margin: 100px auto;
+}
+.banner-heading{
+     font-size: 65px;
+    font-weight: bold;
+     margin-bottom: 37px;
 }     
          /* Action Section */
+
+.action-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 116px 141px 116px 200px;
+    gap: 40px
+
+} 
+.action-description{
+    font-size: 20px;
+   margin: 23px 0px;
+}  
+.action-img {
+  max-width: 100%;
+  border-radius: 48px;
+}      
          /* User Section */
+
+.user-section{
+    margin: 116px 141px 116px 200px;
+    padding: 50px 142px;
+    background-color:lightskyblue;
+    text-align: center;
+} 
+.user-title {
+  font-size: 35px;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+.user-data-section {
+  display: flex;
+  justify-content: space-around;
+}
+.user-data .title {
+  font-size: 80px;
+  font-weight: bold;
+  color: #4E47FF;
+} 
+..user-data .description{
+    font-size: 20px;
+}       
          /* Feedback Section */
