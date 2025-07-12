@@ -1,0 +1,56 @@
+   /* Google Fonts  */
+   
+.open-sans{
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+     /* Reset & Base  */
+    
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ } 
+ 
+      /* Shared Styles  */
+
+.primary-btn {
+  background-color: #4E47FF;
+  color: white;
+  padding: 12px 36px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 10px;
+  border: none;
+} 
+
+.primary-btn:hover {
+  background-color: #3b36cc;
+}
+
+
+
+         /* Header */
+
+header{
+    background-image: url(../My-first-assignment/B12A01-landing-launchpad/Assets/Hero-bg.png);
+    background-size: cover;
+    height: 698px;
+}  
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 150px;
+}  
+.logo{
+     font-size: 34px;
+     font-weight: 900;
+}     
+         /* Action Section */
+         /* User Section */
+         /* Feedback Section */
